@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "E:\\qishun\\Android\\StudioProjects\\Dianwo\\BGAbanner\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 1405,
+                    "endColumn": 52,
+                    "endOffset": 1453
+                },
+                "from": {
+                    "file": "E:\\qishun\\Android\\StudioProjects\\Dianwo\\BGAbanner\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 1405,
+                        "endColumn": 52,
+                        "endOffset": 1453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1458,
+                    "endColumn": 46,
+                    "endOffset": 1500
+                },
+                "from": {
+                    "file": "E:\\qishun\\Android\\StudioProjects\\Dianwo\\BGAbanner\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1458,
+                        "endColumn": 46,
+                        "endOffset": 1500
+                    }
+                }
+            }
+        ]
+    }
+]

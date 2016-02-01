@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/titlebar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    tools:context=".TestActivity">
+
+    <LinearLayout
+        android:id="@+id/lin_left_btn"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="21dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff" />
+
+    <LinearLayout
+        android:id="@+id/lin_right_btn"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/tv_right_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_right_tag"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignRight="@id/lin_right_btn"
+        android:layout_alignTop="@id/lin_right_btn"
+        android:layout_marginRight="10.0dip"
+        android:layout_marginTop="4.0dip"
+        android:gravity="center"
+        android:paddingTop="0.0dip"
+        android:textColor="#ffffffff"
+        android:textSize="10.0sp"
+        android:visibility="gone" />
+</RelativeLayout>

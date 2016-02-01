@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:drawable/toast_frame"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/loading_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicator="BallSpinFadeLoader"
+            app:indicator_color="#fff" />
+
+        <com.jsqix.dianwo.view.MetaballView
+            android:id="@+id/metaball_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.0dip">
+
+            <TextView
+                android:id="@+id/loading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="正在处理,请稍候..."
+                android:textColor="#ffffffff"
+                android:textSize="15.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

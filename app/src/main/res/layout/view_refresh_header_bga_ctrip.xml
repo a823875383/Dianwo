@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/fl_inner"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/common_refresh_earth" />
+
+    <TextView
+        android:id="@+id/pull_to_refresh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#FBFBFB"
+        android:text="下拉刷新"
+        android:textColor="#52BCE8" />
+
+    <ImageView
+        android:id="@+id/pull_to_refresh_round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/common_refresh_round" />
+
+    <ImageView
+        android:id="@+id/pull_to_refresh_flight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/common_refresh_flight" />
+</FrameLayout>
+
+

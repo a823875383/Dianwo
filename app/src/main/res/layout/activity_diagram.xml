@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jsqix.dianwo.DiagramActivity">
+
+    <com.jsqix.dianwo.view.ReboundSrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/mpandroid_chart_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MPAndroidChart"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/xcl_chart_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="XCL-Charts"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </com.jsqix.dianwo.view.ReboundSrollView>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RefreshActivity">
+
+    <com.jsqix.dianwo.view.ReboundSrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/refresh_common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="一般样式" />
+
+            <Button
+                android:id="@+id/refresh_meituan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="美团样式" />
+
+            <Button
+                android:id="@+id/refresh_jd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="京东样式" />
+
+            <Button
+                android:id="@+id/refresh_tmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="天猫样式" />
+            <Button
+                android:id="@+id/refresh_autohome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="汽车之家样式" />
+            <Button
+                android:id="@+id/refresh_ctrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="携程旅游样式" />
+        </LinearLayout>
+    </com.jsqix.dianwo.view.ReboundSrollView>
+
+
+</RelativeLayout>

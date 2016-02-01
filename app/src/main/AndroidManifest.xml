@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jsqix.dianwo">
+
+    <uses-sdk tools:overrideLibrary="com.gc.materialdesign" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.GET_TOP_ACTIVITY_INFO" />
+
+    <application
+        android:name=".base.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CaptureActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".base.BaseActivity" />
+        <activity android:name=".TestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BGARefreshActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OneXRefreshActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".XListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".XMultiColumnActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RefreshActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MaterialRefreshActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SwipeMenuActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ControlWidgetActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SwipeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SwipeLayoutActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DateRangeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewPhotoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DiagramActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MPLineChartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MPPieChartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MPAndroidChartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".XclChartsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".XclLineChartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".XclPieChartActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PickViewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WebViewActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BGACommonActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BGAMeiTuanActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BGAJDActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BGATMallActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BGAAutoHomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TMallActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BGACtripActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CtripActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PullToRefreshActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

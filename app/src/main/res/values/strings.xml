@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Dianwo</string>
+    <string name="permission_camera_rationale">Camera permission is needed to show the camera preview.</string>
+    <string name="permission_contacts_rationale">Contacts permissions are needed to demonstrate access to the contacts database.</string>
+    <string name="permission_camera_denied">Camera permission was denied. Please consider granting it in order to access the camera!</string>
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="title_activity_capture">CaptureActivity</string>
+    <string name="title_activity_refresh">RefreshActivity</string>
+    <string name="title_activity_one_xrefresh">OneXRefreshActivity</string>
+    <string name="title_activity_xlist">XListActivity</string>
+    <string name="title_activity_xmulti_column">XMultiColumnActivity</string>
+    <string name="title_activity_material_refresh">MaterialRefreshActivity</string>
+    <string name="title_activity_swipe_menu">SwipeMenuActivity</string>
+    <string name="title_activity_control_widget">ControlWidgetActivity</string>
+    <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="title_activity_swipe_layout">SwipeLayoutActivity</string>
+    <string name="title_activity_data_range">DataRangeActivity</string>
+    <string name="title_activity_view_photo">ViewPhotoActivity</string>
+    <string name="title_activity_diagram">DiagramActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_pull_to_refresh">PullToRefreshActivity</string>
+
+</resources>
